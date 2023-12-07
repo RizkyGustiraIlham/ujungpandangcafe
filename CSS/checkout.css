@@ -1,0 +1,93 @@
+:root {
+  --primary: #b6895b !important;
+  --bg: #010101 !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+.navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 1.7rem 7% !important;
+  background-color: rgba(1, 1, 1, 0.8) !important;
+  border-bottom: 2px solid #513c28 !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+}
+
+.navbar .navbar-logo {
+  font-size: 2.8rem !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+.navbar .navbar-logo span {
+  color: rgba(0, 255, 255, 0.596) !important;
+  font-style: italic !important;
+}
+.navbar .navbar-nav a {
+  color: #fff !important;
+  display: inline-block !important;
+  font-size: 2rem !important;
+  margin: 0 2rem !important;
+  margin-top: 1rem !important;
+}
+.navbar .navbar-nav a:hover {
+  color: rgba(0, 255, 255, 0.596) !important;
+}
+.navbar .navbar-nav a::after {
+  content: "" !important;
+  display: block !important;
+  padding-bottom: 0.5rem !important;
+  border-bottom: 0.1rem solid rgba(0, 255, 255, 0.596) !important;
+  transform: scaleX(0) !important;
+  transition: 0.2s linear !important;
+}
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5) !important;
+}
+.navbar .navbar-extra #keranjang {
+  margin-top: 1rem !important;
+  display: inline-block !important;
+  padding: 1rem 2rem !important;
+  font-size: 2rem !important;
+  color: #fff !important;
+  background-color: rgba(0, 255, 255, 0.596) !important;
+  border-radius: 30rem !important;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5) !important;
+  transition: 0.4s !important;
+  border: 2px solid transparent !important;
+}
+.navbar .navbar-extra #keranjang:hover {
+  background-color: transparent !important;
+  border: 2px solid #f9004d !important;
+  cursor: pointer !important;
+}
+.konten .container button {
+  margin-top: 1rem !important;
+  display: inline-block !important;
+  padding: 1rem 2rem !important;
+  font-size: 1.8rem !important;
+  color: black !important;
+  background-color: rgba(0, 255, 255, 0.596) !important;
+  border-radius: 10rem !important;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5) !important;
+  transition: 0.4s !important;
+  border: 2px solid transparent !important;
+}
+.konten .container button:hover {
+  background-color: transparent !important;
+  border: 2px solid red !important;
+  cursor: pointer !important;
+}

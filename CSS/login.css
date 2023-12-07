@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navbar Start*/
+.navbar {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgba(1, 1, 1, 0.8);
+  border-bottom: 2px solid #513c28;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  /* font-style: italic; */
+}
+.navbar .navbar-logo span {
+  color: rgba(0, 255, 255, 0.596);
+  font-style: italic;
+}
+.navbar .navbar-nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 2rem;
+  margin-top: 1rem;
+}
+.navbar .navbar-nav a:hover {
+  color: rgba(0, 255, 255, 0.596);
+}
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid rgba(0, 255, 255, 0.596);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+.navbar .navbar-extra #keranjang {
+  margin-top: 1rem !important;
+  display: inline-block !important;
+  padding: 1rem 2rem !important;
+  font-size: 1.2rem !important;
+  color: #fff !important;
+  background-color: rgba(0, 255, 255, 0.596) !important;
+  border-radius: 30rem !important;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5) !important;
+  transition: 0.4s !important;
+  border: 2px solid transparent !important;
+}
+.navbar .navbar-extra #keranjang:hover {
+  background-color: transparent !important;
+  border: 2px solid #f9004d !important;
+  cursor: pointer !important;
+}
+
+/* Navbar End */
+
+.hero {
+  min-height: 100vh;
+  background-position: center;
+  align-items: center;
+  background-image: url("../img/bglogin.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  padding: 20px 25px !important;
+  width: 400px !important;
+  height: 40% !important;
+  color: #fcfc !important;
+  background-color: rgba(0, 0, 0, 0.418) !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3) !important;
+}
+.container h1 {
+  text-align: center;
+  color: rgba(0, 255, 255, 0.596);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.container label {
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.container form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: #fff;
+  font-size: 20px;
+}
+.container form button {
+  width: 80%;
+  background-color: rgba(0, 255, 255, 0.596);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  position: absolute;
+  left: 10%;
+  top: 73%;
+}
+.container form button:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  cursor: pointer;
+}
+#btn {
+  position: absolute;
+  left: 10%;
+  top: 85%;
+  background-color: #f9004d;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+#btn:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  cursor: pointer;
+}

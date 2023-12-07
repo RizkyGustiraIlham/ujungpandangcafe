@@ -1,0 +1,86 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  outline: 0 !important;
+  box-sizing: border-box !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+
+body {
+  height: 100vh !important;
+  width: 100% !important;
+  background-repeat: repeat-x !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* Navbar Start*/
+
+/* Navbar End */
+
+.hero {
+  min-height: 100vh !important;
+  background-position: center !important;
+  align-items: center !important;
+  background-image: url("../../img/bglogin.jpg");
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative !important;
+}
+
+.container {
+  position: absolute !important ;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  padding: 20px 25px !important;
+  width: 400px !important;
+  height: 45% !important;
+  color: #fcfc !important;
+  background-color: rgba(0, 0, 0, 0.418) !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3) !important;
+}
+.container h1 {
+  text-align: center !important;
+  color: rgba(0, 255, 255, 0.596) !important;
+  margin-bottom: 40px !important;
+  text-transform: uppercase !important;
+  padding-bottom: 15px !important;
+}
+.container label {
+  text-align: left !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.container form input {
+  width: calc(100% - 20px) !important;
+  padding: 8px 10px !important;
+  margin-bottom: 15px !important;
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid rgb(255, 255, 255) !important;
+  color: #fff !important;
+  font-size: 20px !important;
+}
+.container form button {
+  width: 80% !important;
+  background-color: rgba(0, 255, 255, 0.596) !important;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  border: 2px solid transparent !important;
+  font-weight: bold !important;
+  padding: 13px 30px !important;
+  border-radius: 30px !important;
+  transition: 0.4s !important;
+  position: absolute !important;
+  left: 10% !important;
+  top: 75% !important;
+  font-size: 1.2rem;
+}
+.container form button:hover {
+  background-color: transparent !important;
+  border: 2px solid #ff0000 !important;
+  cursor: pointer !important;
+}
